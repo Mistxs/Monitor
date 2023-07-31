@@ -13,6 +13,7 @@ salon_id =162492
 
 
 
+
 def send_slack_message(message):
     client = WebClient(token=api_token)
     response = client.chat_postMessage(
